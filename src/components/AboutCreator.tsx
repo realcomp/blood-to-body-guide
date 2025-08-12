@@ -26,7 +26,7 @@ const AboutCreator = () => {
             <div className="space-y-6">
               <div className="space-y-4">
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Hi, I'm <span className="font-semibold text-foreground">Dmitry Braverman</span> - a product and project manager with over 20 years of experience building digital products. I've launched and scaled solutions across media, fintech, automation, e-commerce, and advertising. I've led cross-functional teams, overseen end-to-end development, managed budgets up to $300,000, and delivered products that combine strong UX with real-world impact.
+                  Hi, I'm <a href="https://www.linkedin.com/in/realcomp/" target="_blank" rel="noopener noreferrer" className="font-semibold text-foreground hover:text-primary transition-colors underline">Dmitry Braverman</a> - a product and project manager with over 20 years of experience building digital products. I've launched and scaled solutions across media, fintech, automation, e-commerce, and advertising. I've led cross-functional teams, overseen end-to-end development, managed budgets up to $300,000, and delivered products that combine strong UX with real-world impact.
                 </p>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed">
