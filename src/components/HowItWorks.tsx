@@ -1,4 +1,4 @@
-import { Upload, Brain, Target, UtensilsCrossed, Camera, TrendingUp } from "lucide-react";
+import { Upload, Brain, Target, UtensilsCrossed, Camera, TrendingUp, MessageCircle, Smartphone, Globe } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
@@ -91,6 +91,67 @@ const HowItWorks = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Why Telegram Section */}
+        <div className="mt-20 max-w-4xl mx-auto">
+          <div className="bg-card rounded-2xl border border-border/50 p-8 lg:p-12">
+            <div className="text-center space-y-6 mb-8">
+              <div className="flex justify-center">
+                <div className="p-4 bg-gradient-to-br from-primary to-primary-glow rounded-full">
+                  <MessageCircle className="w-8 h-8 text-white" />
+                </div>
+              </div>
+              <h3 className="text-3xl lg:text-4xl font-bold text-foreground">
+                Why Telegram
+              </h3>
+            </div>
+            
+            <div className="space-y-6 text-center">
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                We built Dr.Holesto in Telegram for a reason.
+              </p>
+              
+              <p className="text-base text-muted-foreground leading-relaxed">
+                Most people install dozens of apps they rarely open — but a messenger is something you use every day. 
+                That means no extra downloads, no updates, no learning curve. Just open the chat and start.
+              </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                <div className="flex items-start gap-4 p-4 bg-secondary/5 rounded-lg">
+                  <div className="p-2 bg-secondary/10 rounded-lg">
+                    <Smartphone className="w-5 h-5 text-secondary" />
+                  </div>
+                  <div className="text-left">
+                    <h4 className="font-semibold text-foreground mb-1">Always accessible</h4>
+                    <p className="text-sm text-muted-foreground">No extra downloads or updates needed</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4 p-4 bg-secondary/5 rounded-lg">
+                  <div className="p-2 bg-secondary/10 rounded-lg">
+                    <MessageCircle className="w-5 h-5 text-secondary" />
+                  </div>
+                  <div className="text-left">
+                    <h4 className="font-semibold text-foreground mb-1">Simple interface</h4>
+                    <p className="text-sm text-muted-foreground">Familiar chat experience everyone knows</p>
+                  </div>
+                </div>
+              </div>
+              
+              <p className="text-base text-muted-foreground leading-relaxed">
+                Yes, a messenger interface is simpler than a custom app, but it's always at your fingertips — 
+                and that makes it far more accessible.
+              </p>
+              
+              <div className="flex items-center justify-center gap-2 mt-6 p-4 bg-accent/10 rounded-lg border border-accent/20">
+                <Globe className="w-5 h-5 text-accent" />
+                <p className="text-sm font-medium text-accent">
+                  In the future, we'll also bring Dr.Holesto to WhatsApp, so you can choose the platform you prefer.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
