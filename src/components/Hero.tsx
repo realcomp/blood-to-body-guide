@@ -33,10 +33,6 @@ const Hero = () => {
                   <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                 </Button>
               </a>
-              <Button variant="soft" size="lg" className="group">
-                <Activity className="w-5 h-5" />
-                Learn More
-              </Button>
             </div>
 
             <div className="flex items-center gap-6 pt-4">
