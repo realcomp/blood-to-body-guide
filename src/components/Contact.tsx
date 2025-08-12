@@ -15,13 +15,10 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button variant="hero" size="lg" className="group">
               Start in Telegram
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-            </Button>
-            <Button variant="soft" size="lg">
-              Learn More
             </Button>
           </div>
 
