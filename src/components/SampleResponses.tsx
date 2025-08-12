@@ -154,10 +154,10 @@ const SampleResponses = () => {
                     href="/lovable-uploads/842bfbf5-749e-4671-91f3-a953901bdb36.png" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 hover:bg-accent/20 rounded-lg border border-accent/20 transition-colors"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/10 hover:bg-emerald-500/20 rounded-lg border border-emerald-500/20 transition-colors"
                   >
-                    <ExternalLink className="w-4 h-4 text-accent" />
-                    <span className="text-sm font-medium text-accent">See printed example</span>
+                    <ExternalLink className="w-4 h-4 text-emerald-600" />
+                    <span className="text-sm font-medium text-emerald-600">See printed example</span>
                   </a>
                 </div>
               </div>
