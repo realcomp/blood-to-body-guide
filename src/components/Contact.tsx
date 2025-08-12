@@ -16,10 +16,12 @@ const Contact = () => {
           </div>
 
           <div className="flex justify-center">
-            <Button variant="hero" size="lg" className="group">
-              Start in Telegram
-              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-            </Button>
+            <a href="https://t.me/holesto_bot" target="_blank" rel="noopener noreferrer">
+              <Button variant="hero" size="lg" className="group">
+                Start in Telegram
+                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </a>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-12">
