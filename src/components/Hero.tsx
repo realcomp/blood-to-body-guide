@@ -4,7 +4,7 @@ const heroImage = "/lovable-uploads/8ce8187a-c7a4-4cde-a105-5410dc846377.png";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-background via-secondary-soft to-accent/20 py-20 lg:py-28">
+    <section className="relative overflow-hidden bg-gradient-to-br from-background via-secondary-soft to-accent/20 py-20 lg:py-28 min-h-0">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -54,7 +54,7 @@ const Hero = () => {
           </div>
 
           {/* Hero Image */}
-          <div className="relative">
+          <div className="relative overflow-hidden">
             <div className="relative z-10 overflow-hidden rounded-2xl shadow-2xl">
               <img 
                 src={heroImage} 
@@ -63,8 +63,8 @@ const Hero = () => {
               />
             </div>
             {/* Decorative elements */}
-            <div className="absolute -top-6 -left-6 w-24 h-24 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full blur-xl"></div>
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-secondary/20 to-primary/20 rounded-full blur-xl"></div>
+            <div className="absolute top-0 left-0 w-24 h-24 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full blur-xl -translate-x-3 -translate-y-3"></div>
+            <div className="absolute bottom-0 right-0 w-32 h-32 bg-gradient-to-br from-secondary/20 to-primary/20 rounded-full blur-xl translate-x-3 translate-y-3"></div>
           </div>
         </div>
       </div>

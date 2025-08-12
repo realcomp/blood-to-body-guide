@@ -1,6 +1,6 @@
 const AboutCreator = () => {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-background min-h-0 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl lg:text-4xl font-bold text-center mb-16 text-foreground">
@@ -9,7 +9,7 @@ const AboutCreator = () => {
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Image */}
-            <div className="relative">
+            <div className="relative overflow-hidden">
               <div className="relative z-10 overflow-hidden rounded-2xl shadow-2xl">
                 <img 
                   src="/lovable-uploads/79189360-0bd7-4e21-ad4b-42c60c56f102.png" 
@@ -18,8 +18,8 @@ const AboutCreator = () => {
                 />
               </div>
               {/* Decorative elements */}
-              <div className="absolute -top-6 -left-6 w-24 h-24 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full blur-xl"></div>
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-secondary/20 to-primary/20 rounded-full blur-xl"></div>
+              <div className="absolute top-0 left-0 w-24 h-24 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full blur-xl -translate-x-3 -translate-y-3"></div>
+              <div className="absolute bottom-0 right-0 w-32 h-32 bg-gradient-to-br from-secondary/20 to-primary/20 rounded-full blur-xl translate-x-3 translate-y-3"></div>
             </div>
 
             {/* Content */}
