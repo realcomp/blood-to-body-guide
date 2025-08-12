@@ -1,4 +1,4 @@
-import { TestTube, UtensilsCrossed, AlertTriangle, CheckCircle, Calendar, ShoppingCart } from "lucide-react";
+import { TestTube, UtensilsCrossed, AlertTriangle, CheckCircle, Calendar, ShoppingCart, ExternalLink } from "lucide-react";
 
 const SampleResponses = () => {
   return (
@@ -148,6 +148,18 @@ const SampleResponses = () => {
                     <li>• Daily nutritional targets achieved</li>
                   </ul>
                 </div>
+                
+                <div className="flex justify-center">
+                  <a 
+                    href="/lovable-uploads/842bfbf5-749e-4671-91f3-a953901bdb36.png" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 hover:bg-accent/20 rounded-lg border border-accent/20 transition-colors"
+                  >
+                    <ExternalLink className="w-4 h-4 text-accent" />
+                    <span className="text-sm font-medium text-accent">See printed example</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -200,6 +212,18 @@ const SampleResponses = () => {
                     <li>• Checkboxes for easy shopping</li>
                     <li>• Optimized to minimize food waste</li>
                   </ul>
+                </div>
+                
+                <div className="flex justify-center">
+                  <a 
+                    href="/lovable-uploads/bb94867b-dd68-480d-8bac-86c0d1547cc2.png" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/10 hover:bg-emerald-500/20 rounded-lg border border-emerald-500/20 transition-colors"
+                  >
+                    <ExternalLink className="w-4 h-4 text-emerald-600" />
+                    <span className="text-sm font-medium text-emerald-600">See printed example</span>
+                  </a>
                 </div>
               </div>
             </div>
