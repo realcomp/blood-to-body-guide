@@ -14,7 +14,16 @@ const Footer = () => {
           </p>
           <div className="pt-6 border-t border-gray-700">
             <p className="text-gray-400 text-sm">
-              © 2024 Dr.Holesto by Sportomatics. All rights reserved.
+              © 2024 Dr.Holesto by{" "}
+              <a 
+                href="https://www.sportomatics.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-primary-glow transition-colors"
+              >
+                Sportomatics
+              </a>
+              . All rights reserved.
             </p>
           </div>
         </div>
