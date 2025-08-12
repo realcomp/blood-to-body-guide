@@ -29,13 +29,13 @@ const Features = () => {
     },
     {
       icon: ShoppingCart,
-      title: "Smart Shopping Lists",
-      description: "Automatic shopping list creation optimized for quantity and timing"
+      title: "Automatic Weekly Shopping List Creation",
+      description: "Generates a shopping list linked to your 7-day menu, organized by store sections and including exact product quantities"
     },
     {
       icon: TrendingUp,
-      title: "Progress Tracking",
-      description: "Stores your history to monitor changes and adjust recommendations"
+      title: "Get the Recipe",
+      description: "Enter the menu dish number to receive a detailed cooking guide with its health benefits, serving tips, and storage instructions"
     },
     {
       icon: Globe,
