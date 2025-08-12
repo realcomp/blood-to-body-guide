@@ -27,10 +27,12 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="group">
-                Start in Telegram
-                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-              </Button>
+              <a href="https://t.me/holesto_bot" target="_blank" rel="noopener noreferrer">
+                <Button variant="hero" size="lg" className="group">
+                  Start in Telegram
+                  <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </a>
               <Button variant="soft" size="lg" className="group">
                 <Activity className="w-5 h-5" />
                 Learn More
