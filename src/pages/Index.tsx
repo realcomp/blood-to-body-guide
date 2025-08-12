@@ -7,6 +7,8 @@ import WhoItsFor from "@/components/WhoItsFor";
 import FAQ from "@/components/FAQ";
 import Limitations from "@/components/Limitations";
 import Contact from "@/components/Contact";
+import AboutCreator from "@/components/AboutCreator";
+import StoryBehindIt from "@/components/StoryBehindIt";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -20,6 +22,8 @@ const Index = () => {
       <WhoItsFor />
       <FAQ />
       <Limitations />
+      <AboutCreator />
+      <StoryBehindIt />
       <Contact />
       <Footer />
     </main>
