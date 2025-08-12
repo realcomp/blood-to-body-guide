@@ -61,10 +61,11 @@ const HowItWorks = () => {
               >
                 {/* Connection line for desktop */}
                 {index < steps.length - 1 && (
-                  <div className="hidden lg:block absolute top-12 left-full w-8 h-px bg-gradient-to-r from-primary/50 to-transparent z-0" 
+                  <div className="hidden lg:block absolute top-12 left-full w-8 h-px bg-gradient-to-r from-primary/50 to-transparent z-0 overflow-hidden" 
                        style={{
                          transform: index % 3 === 2 ? 'translateY(100px) rotate(90deg)' : 'none',
-                         width: index % 3 === 2 ? '100px' : '32px'
+                         width: index % 3 === 2 ? '100px' : '32px',
+                         maxWidth: '100px'
                        }}
                   />
                 )}
