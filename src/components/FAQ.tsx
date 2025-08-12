@@ -24,6 +24,10 @@ const FAQ = () => {
       answer: "Use /blood delete command and upload a new test. Your recommendations will update based on the new results."
     },
     {
+      question: "My blood test wasn't recognized",
+      answer: "Ensure your blood test is clear and readable. Send a PDF or high-quality photo with all values visible. If it still doesn't work, try taking another photo with better lighting or contact support."
+    },
+    {
       question: "My photo wasn't recognized",
       answer: "For best results, send a PDF or a clear, well-lit scan. Ensure all text is readable and the image isn't blurry."
     },
