@@ -145,9 +145,9 @@ const HowItWorks = () => {
                 and that makes it far more accessible.
               </p>
               
-              <div className="flex items-center justify-center gap-2 mt-6 p-4 bg-accent/10 rounded-lg border border-accent/20">
-                <Globe className="w-5 h-5 text-accent" />
-                <p className="text-sm font-medium text-accent">
+              <div className="flex items-center justify-center gap-2 mt-6 p-4 bg-secondary/5 rounded-lg border border-secondary/20">
+                <Globe className="w-5 h-5 text-secondary" />
+                <p className="text-sm font-medium text-foreground">
                   In the future, we'll also bring Dr.Holesto to WhatsApp, so you can choose the platform you prefer.
                 </p>
               </div>
